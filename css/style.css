@@ -6,6 +6,13 @@ body {
   color: #505962;
 }
 
+.offset:before {
+  display: block;
+  content: "";
+  height: 4rem;
+  margin-top: -4rem;
+}
+
 .navbar {
   text-transform: uppercase;
   font-weight: 700;
@@ -94,6 +101,41 @@ body {
   border-color: #189582;
 }
 
+/* Features Section */
+.jumbotron {
+  margin-bottom: 0;
+  padding: 2rem 0;
+  border-radius: 0;
+}
+
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #1ebba3;
+  margin: 0 auto 2rem;
+}
+
+/* Resource Section */
+.feature svg.svg-inline--fa {
+  color: #1ebba3;
+}
+
+.feature h3 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding-bottom: .4rem;
+}
+
+.feature p {
+  font-size: 1.1rem;
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
